@@ -1,0 +1,12 @@
+[package]
+name = "todo"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+chrono = "0.4"
+console = "0.11"
+
+[lib]
+name = "todo_lib"
+path = "src/lib.rs"
