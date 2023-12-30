@@ -171,7 +171,7 @@ pub fn edit_task_details(task: &mut Task, priorities: &Vec<String>) {
 }
 
 pub fn edit_priorities(priorities: &mut Vec<String>) {
-    println!("Which one do you want to edit (You can go f.e 1 2, to edit 1 and 2 priority)?");
+    println!("Please specify the priority you wish to edit. You may choose, for instance, 1 and 2 (e.g., '1 2').");
     for (index, priority) in priorities.iter().enumerate() {
         println!("{}. {}", index + 1, priority);
     }
