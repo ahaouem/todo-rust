@@ -4,7 +4,8 @@ fn main() {
     let mut tasks: Vec<Task> = Vec::new();
     let mut id = 0;
 
-    let mut priorities: Vec<String> = vec!["low".to_string(), "medium".to_string(), "high".to_string()];
+    let mut priorities: Vec<String> =
+        vec!["low".to_string(), "medium".to_string(), "high".to_string()];
 
     loop {
         println!("\nMenu:");

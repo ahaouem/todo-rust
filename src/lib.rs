@@ -11,7 +11,7 @@ pub struct Task {
 }
 
 impl Task {
-    fn new(
+    pub fn new(
         id: i8,
         title: String,
         description: String,
